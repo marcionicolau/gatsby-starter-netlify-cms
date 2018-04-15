@@ -1,6 +1,5 @@
 ---
-templateKey: 'product-page'
-path: /products
+templateKey: product-page
 title: Our Coffee
 image: /img/jumbotron.jpg
 heading: What we offer
@@ -77,6 +76,11 @@ pricing:
     monthly subscription plans to receive great coffee at your doorstep each
     month. Contact us about more details and payment info.
   plans:
+    - description: Starter plan with a snek peak from our coffee
+      items:
+        - The moust famous blands from Brazil
+      plan: Starter
+      price: '15'
     - description: Perfect for the drinker who likes to enjoy 1-2 cups per day.
       items:
         - 3 lbs of coffee per month
@@ -99,3 +103,4 @@ pricing:
       plan: Custom
       price: '??'
 ---
+
